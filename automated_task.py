@@ -22,7 +22,7 @@ def fetch_articles_until_today():
     endpoint_url = "https://content.guardianapis.com/search?q=Justin Trudeau"
     today_date = datetime.now().date()
 
-    # Load the data from the CSV file and get the last updated date
+    # Load the data from the CSV file and get the last updated date . Also, assuming that you ran notebook and data is saved articles.csv
     articles_df = pd.read_csv('articles.csv', parse_dates=["webPublicationDate"])
     last_updated_date = pd.to_datetime(articles_df["webPublicationDate"].max()).date()
 

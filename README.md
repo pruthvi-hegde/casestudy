@@ -29,5 +29,9 @@ needs to be set. For gmails to work, you need to enable app password.
 9. Follow the instructions to enter the App Password. The App Password is the 16-character code in the yellow bar on your device.
 10. Tap Done.
 
-**Note** : Setup your api-key to access the Guardian APIs and replaces the
-values in the app.
+**Note** : 
+* Setup your api-key to access the Guardian APIs and replace api-key 
+values in the code.
+* Unfortunately GitHub restricts from uploading large files. Since data files
+could not be uploaded, save data from question 1 to 'articles.csv'. Because 9th question results 
+build upon the results from question1.
